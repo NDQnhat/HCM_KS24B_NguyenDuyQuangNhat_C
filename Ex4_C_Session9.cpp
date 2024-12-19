@@ -30,7 +30,7 @@ int main() {
 				scanf("%d", &position);
 				printf("nhap phan tu muon them: ");
 				scanf("%d", &n);
-				for(int i=currentLength;i>position;i--){
+				for(int i=currentLength+1;i>position;i--){
 					array[i]=array[i-1];
 				} currentLength++;
 				array[position]=n;

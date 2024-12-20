@@ -51,6 +51,9 @@ int main() {
 				break;
 			case 6:
 				return 0;
+			default:
+				printf("khong hop le");
+				return 0;
 		} 
-	}
+	} return 0;
 } 

@@ -5,10 +5,10 @@ int main() {
 	for(int i=0;i<length-1;i++){
         int min=arr[i];
         for(int j=i+1;j<length;j++){
-            if(min>arr[j]){
-                min=arr[j];
-                arr[j]=arr[i];
-                arr[i]=min;
+            if(min>array[j]){
+                min=array[j];
+                array[j]=array[i];
+                array[i]=min;
             }
         }
         } printf("\nmang sau sap xep: ");

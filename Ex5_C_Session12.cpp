@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
-int check(int input);
+bool check(int input);
 int main() {
 	int a,b;
 	printf("nhap a,b:\n");
@@ -16,7 +16,7 @@ int main() {
         printf("\n%d khong phai prime", b);
     }return 0;
 }
-int check(int input){
+bool check(int input){
 	if(input<2){
 		return false;
 	} else {

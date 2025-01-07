@@ -13,7 +13,7 @@ int main()
 {
     int a=0;
     int *aPtr=&a;
-    printf("gtri: %d, dia chi: %p\n", a, (void*)&a);
-    printf("gtri: %d, dia chi: %p\n", *aPtr, (void*)aPtr);
+    printf("gtri: %d, dia chi: %p\n", a, &a);
+    printf("gtri: %d, dia chi: %p\n", *aPtr, aPtr);
     return 0;
 }*/
